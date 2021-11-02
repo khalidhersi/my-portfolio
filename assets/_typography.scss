@@ -1,1 +1,22 @@
 $primary-font-family: 'poppins', sans;
+
+ * {
+     font-family: $primary-font-family;
+ }
+
+
+ 
+.h1 {
+    font-weight: bold;
+    font-size: 150px;
+}
+
+.h2 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.h3 {
+    font-weight: bold;
+    font-size: 24px;
+}

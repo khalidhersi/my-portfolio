@@ -1,0 +1,31 @@
+.hero__text {
+    display: grid;
+    grid-template-areas: " h1  h2 "
+                         " h1  soc "
+                         " h1  h3 ";
+                         }
+
+
+.h1 {
+    grid-area: h1;
+}
+
+.h2 {
+    grid-area: h2;
+}
+
+.soc {
+    grid-area: soc;
+}
+
+.h3 {
+    grid-area: h3;
+}
+
+.c2a {
+    grid-area: c2a;
+}
+
+
+
+

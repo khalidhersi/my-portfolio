@@ -1,4 +1,23 @@
 * {
+  font-family: "poppins", sans;
+}
+
+.h1 {
+  font-weight: bold;
+  font-size: 150px;
+}
+
+.h2 {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.h3 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -6,16 +25,82 @@
   color: #131313;
 }
 
-.nav__logo {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  right: 1000px;
-}
-
 .nav-bar {
   height: 100px;
   display: flex;
   justify-content: right;
   align-items: center;
+  position: relative;
+  right: 500px;
+  top: 50px;
+}
+
+.nav__logo {
+  width: 124px;
+  height: 124px;
+  position: relative;
+  right: 300px;
+}
+
+ul {
+  position: relative;
+  right: 80px;
+}
+
+.nav__links {
+  text-decoration: none;
+  font-size: 24px;
+  margin-right: 50px;
+}
+
+.hero__text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+a img {
+  width: 46px;
+  height: 46px;
+  margin-left: 10px;
+}
+
+#git {
+  height: 100pc;
+  width: 48px;
+}
+
+#li {
+  height: 36px;
+  width: 36px;
+}
+
+#cv {
+  height: 34px;
+  width: 34px;
+}
+
+.hero__text {
+  display: grid;
+  grid-template-areas: " h1  h2 " " h1  soc " " h1  h3 ";
+}
+
+.h1 {
+  grid-area: h1;
+}
+
+.h2 {
+  grid-area: h2;
+}
+
+.soc {
+  grid-area: soc;
+}
+
+.h3 {
+  grid-area: h3;
+}
+
+.c2a {
+  grid-area: c2a;
 }
