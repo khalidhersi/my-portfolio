@@ -6,3 +6,19 @@
     bottom: 20px;
 }
 
+.about-page {
+    width: 200px;
+    img {
+        height: 100%;
+        width: 100%;
+        z-index: 47;
+    }
+    .about__tittle {
+        font-size: 72px;
+        position: relative;
+        bottom: 700px;
+        left: 500px;
+        
+    }
+}
+

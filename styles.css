@@ -3,12 +3,11 @@
   font-family: "poppins", sans;
 }
 
-h1 {
+.hero h1 {
   font-weight: bold;
   font-size: 250px;
 }
-
-h2 {
+.hero h2 {
   font-weight: bold;
   font-size: 48px;
   position: relative;
@@ -16,8 +15,7 @@ h2 {
   padding: 0;
   margin: 0;
 }
-
-h3 {
+.hero h3 {
   font-weight: bold;
   font-size: 24px;
   position: relative;
@@ -30,6 +28,7 @@ h3 {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  max-width: 1482px;
   background-color: #fdfdfd;
   color: #131313;
 }
@@ -72,6 +71,21 @@ ul {
   flex-direction: column;
   position: relative;
   bottom: 20px;
+}
+
+.about-page {
+  width: 200px;
+}
+.about-page img {
+  height: 100%;
+  width: 100%;
+  z-index: 47;
+}
+.about-page .about__tittle {
+  font-size: 72px;
+  position: relative;
+  bottom: 700px;
+  left: 500px;
 }
 
 .c2a {
