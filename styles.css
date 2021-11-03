@@ -1,20 +1,29 @@
 * {
+  box-sizing: border-box;
   font-family: "poppins", sans;
 }
 
-.h1 {
+h1 {
   font-weight: bold;
-  font-size: 150px;
+  font-size: 250px;
 }
 
-.h2 {
+h2 {
   font-weight: bold;
-  font-size: 36px;
+  font-size: 48px;
+  position: relative;
+  top: 25px;
+  padding: 0;
+  margin: 0;
 }
 
-.h3 {
+h3 {
   font-weight: bold;
   font-size: 24px;
+  position: relative;
+  bottom: 10px;
+  padding: 0;
+  margin: 0;
 }
 
 * {
@@ -31,15 +40,17 @@
   justify-content: right;
   align-items: center;
   position: relative;
-  right: 500px;
-  top: 50px;
+  right: 300px;
+  top: 20px;
+  z-index: 90;
 }
 
 .nav__logo {
-  width: 124px;
-  height: 124px;
+  width: 118px;
+  height: 118px;
   position: relative;
   right: 300px;
+  margin-right: 60px;
 }
 
 ul {
@@ -51,56 +62,79 @@ ul {
   text-decoration: none;
   font-size: 24px;
   margin-right: 50px;
+  position: relative;
+  left: 100px;
 }
 
 .hero__text {
   text-align: center;
   display: flex;
   flex-direction: column;
-}
-
-a img {
-  width: 46px;
-  height: 46px;
-  margin-left: 10px;
-}
-
-#git {
-  height: 100pc;
-  width: 48px;
-}
-
-#li {
-  height: 36px;
-  width: 36px;
-}
-
-#cv {
-  height: 34px;
-  width: 34px;
-}
-
-.hero__text {
-  display: grid;
-  grid-template-areas: " h1  h2 " " h1  soc " " h1  h3 ";
-}
-
-.h1 {
-  grid-area: h1;
-}
-
-.h2 {
-  grid-area: h2;
-}
-
-.soc {
-  grid-area: soc;
-}
-
-.h3 {
-  grid-area: h3;
+  position: relative;
+  bottom: 20px;
 }
 
 .c2a {
-  grid-area: c2a;
+  display: flex;
+  justify-content: center;
+}
+.c2a .view-more {
+  width: 300px;
+  height: 75px;
+  font-size: 36px;
+  font-weight: bold;
+  position: relative;
+  right: 210px;
+  bottom: 25px;
+  z-index: 6;
+}
+.c2a img {
+  position: relative;
+  left: 140px;
+  bottom: 230px;
+  z-index: 5;
+  width: 390px;
+  height: 525px;
+}
+
+.social__icons {
+  padding: 5px;
+  margin-top: 6px;
+}
+.social__icons #git {
+  height: 45px;
+  width: 45px;
+  position: relative;
+}
+.social__icons #li {
+  height: 40px;
+  width: 45px;
+  position: relative;
+  bottom: 2px;
+  margin: 0 10px;
+}
+.social__icons #cv {
+  height: 39px;
+  width: 43px;
+  position: relative;
+  bottom: 2px;
+}
+
+.hero__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  position: relative;
+  right: 100px;
+}
+
+.right__side {
+  margin-left: 230px;
+  z-index: 50;
+}
+
+.left__side {
+  z-index: 50;
 }

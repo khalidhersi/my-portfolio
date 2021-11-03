@@ -6,15 +6,17 @@
     justify-content: right;
     align-items: center;
     position: relative;
-    right: 500px;
-    top: 50px;
+    right: 300px;
+    top: 20px;
+    z-index: 90;
 }
 
 .nav__logo {
-    width: 124px;
-    height: 124px;
+    width: 118px;
+    height: 118px;
     position: relative;
     right: 300px;
+    margin-right: 60px;
 }
 
 ul {
@@ -26,4 +28,6 @@ ul {
     text-decoration: none;
     font-size: 24px;
     margin-right: 50px;
+    position: relative;
+    left: 100px;
 }

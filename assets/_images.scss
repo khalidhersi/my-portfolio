@@ -1,18 +1,25 @@
+.social__icons {
+    padding: 5px;
+    margin-top: 6px;
+  #git {
+    height: 45px;
+    width: 45px;
+    position: relative;
+  }
 
+  #li {
+    height: 40px;
+    width: 45px;
+    position: relative;
+    bottom: 2px;
+    margin: 0 10px;
 
+  }
 
-
-        #git {
-            height: 48pc;
-            width: 48px;
-        }
-        
-        #li {
-            height: 36px;
-            width: 36px;
-        }
-
-        #cv {
-            height: 34px;
-            width: 34px;
-        }
+  #cv {
+    height: 39px;
+    width: 43px;
+    position: relative;
+    bottom: 2px;
+  }
+}
