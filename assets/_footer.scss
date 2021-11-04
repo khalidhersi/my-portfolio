@@ -1,4 +1,4 @@
-.nav-bar {
+.footer-bar {
   height: 100px;
   display: flex;
   justify-content: right;
@@ -8,20 +8,20 @@
   top: 20px;
   z-index: 90;
 
-  .nav__logo {
-    width: 118px;
-    height: 118px;
+  .footer__logo {
+    width: 36px;
+    height: 36px;
     position: relative;
     right: 300px;
     margin-right: 60px;
   }
 
-.nav__list {
+.footer__list {
     position: relative;
     right: 80px;
   }
 
-  .nav__links {
+  .footer__links {
     text-decoration: none;
     font-size: 24px;
     margin-right: 50px;
