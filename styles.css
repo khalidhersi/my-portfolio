@@ -73,9 +73,6 @@ ul {
   bottom: 20px;
 }
 
-.about-page {
-  width: 200px;
-}
 .about-page img {
   height: 100%;
   width: 100%;
@@ -84,8 +81,22 @@ ul {
 .about-page .about__tittle {
   font-size: 72px;
   position: relative;
-  bottom: 700px;
-  left: 500px;
+  bottom: 850px;
+  left: 600px;
+  width: 400px;
+}
+
+.project-page img {
+  height: 100%;
+  width: 100%;
+  z-index: 47;
+}
+.project-page .about__tittle {
+  font-size: 72px;
+  position: relative;
+  bottom: 750px;
+  left: 600px;
+  width: 300px;
 }
 
 .c2a {
