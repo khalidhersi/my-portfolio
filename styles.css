@@ -28,7 +28,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  max-width: 1482px;
+  max-width: 1475px;
   background-color: #fdfdfd;
   color: #131313;
 }
@@ -73,7 +73,7 @@
 .about-page img {
   height: 100%;
   width: 100%;
-  z-index: 47;
+  z-index: 140;
 }
 .about-page .about__tittle {
   font-size: 72px;
@@ -82,7 +82,35 @@
   left: 580px;
   width: 400px;
 }
+.about-page p {
+  text-align: center;
+  position: relative;
+  bottom: 800px;
+  left: 400px;
+  width: 500px;
+  font-size: 36px;
+  z-index: 11;
+}
+.about-page img {
+  height: 100%;
+  width: 100%;
+  z-index: 47;
+}
+.about-page #c {
+  position: relative;
+  right: 20px;
+  width: 115px;
+  height: 100px;
+}
+.about-page #react {
+  width: 105px;
+  height: 100px;
+}
 
+.project-page {
+  position: relative;
+  bottom: 600px;
+}
 .project-page img {
   height: 100%;
   width: 100%;
@@ -159,4 +187,117 @@
 
 .left__side {
   z-index: 50;
+}
+
+/*
+.hero__text {
+    display: grid;
+    grid-template-areas: " h1  h2 "
+                         " h1  soc "
+                         " h1  h3 ";
+                         }
+
+
+.h1 {
+    grid-area: h1;
+}
+
+.h2 {
+    grid-area: h2;
+}
+
+.soc {
+    grid-area: soc;
+}
+
+.h3 {
+    grid-area: h3;
+}
+
+.c2a {
+    grid-area: c2a;
+}
+
+*/
+.project__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+  position: relative;
+  left: 500px;
+  bottom: 775px;
+  width: 450px;
+  gap: 10px;
+}
+.project__grid .grid__items {
+  background-color: #fdfdfd;
+  border: 5px solid #131313;
+  display: flex;
+}
+.project__grid .grid__items .buffer {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 15px;
+  top: 20px;
+}
+
+.footer-bar {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 50px;
+  top: 20px;
+  z-index: 90;
+}
+.footer-bar .footer__logo {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  top: 40px;
+  right: 100px;
+}
+.footer-bar .footer__list {
+  position: relative;
+}
+.footer-bar .footer__small-links {
+  text-decoration: none;
+  position: relative;
+  left: 550px;
+  bottom: 50px;
+  text-align: center;
+  width: 300px;
+}
+.footer-bar .footer__small-links a {
+  padding: 5px;
+}
+.footer-bar .footer__big-links {
+  text-decoration: none;
+  font-size: 48px;
+  font-weight: bold;
+  position: relative;
+  right: 200px;
+  top: 25px;
+  text-align: center;
+}
+.footer-bar .footer__big-links .footer__left {
+  padding: 10px;
+  position: relative;
+  right: 35px;
+}
+.footer-bar .footer__big-links #right {
+  position: absolute;
+  left: 720px;
+  font-size: 72px;
+  bottom: -15px;
+  font-size: 500;
+}
+.footer-bar .footer__big-links #left {
+  position: absolute;
+  right: 655px;
+  font-size: 72px;
+  bottom: -15px;
+  font-size: 500;
 }
