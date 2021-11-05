@@ -302,17 +302,11 @@
   font-size: 500;
 }
 
-@media screen and (min-width: 768px) {
-    
-}
-
 @media screen and (max-width: 700px) {
-  
-nav {
-  position: relative;
-  left: 30px;
-  
-}
+  nav {
+    position: relative;
+    left: 30px;
+  }
 
   nav a {
     display: none;
@@ -326,26 +320,26 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
   }
 
   .left__side h1 {
     font-size: 150px;
     position: relative;
-    bottom: 100px;
-    left: 60px;
+    bottom: 210px;
+    right: 20px;
+    height: 0px;
   }
 
   .right__side {
     font-size: 16px;
     position: relative;
-    top: 70px;
-    right: 370px;
+    bottom: 100px;
+    right: 220px;
   }
 
   .c2a {
     position: relative;
-    top: 150px;
+    bottom: 100px;
     right: 220px;
   }
 
@@ -354,4 +348,15 @@ nav {
     bottom: 500px;
   }
 
+  .about-page {
+    position: relative;
+    right: 500px;
+    top: 100px;
+  }
+
+  .project-page {
+    position: relative;
+    right: 500px;
+    top: 100px;
+  }
 }
