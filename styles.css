@@ -307,8 +307,7 @@
     position: relative;
     left: 30px;
   }
-
-  nav a {
+  nav nav a {
     display: none;
   }
 
@@ -321,29 +320,25 @@
     align-items: center;
     justify-content: center;
   }
-
-  .left__side h1 {
+  .hero .left__side h1 {
     font-size: 150px;
     position: relative;
     bottom: 210px;
     right: 20px;
     height: 0px;
   }
-
-  .right__side {
+  .hero .right__side {
     font-size: 16px;
     position: relative;
     bottom: 100px;
     right: 220px;
   }
-
-  .c2a {
+  .hero .c2a {
     position: relative;
     bottom: 100px;
     right: 220px;
   }
-
-  .view-more {
+  .hero .view-more {
     position: relative;
     bottom: 500px;
   }
